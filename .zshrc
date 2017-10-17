@@ -1,49 +1,20 @@
-autoload antigen
+source /path-to-antigen/antigen.zsh
 
-# Aliases
-source ~/.aliases
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
 
-#Antigen
-source ~/.dotfiles/antigen/antigen.zsh 
-
-antigen use oh-my-zsh 
-
-# plugin
-# git
-antigen bundle arialdomartini/oh-my-git 
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
-
-# Explain how to install missing binary
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
 antigen bundle command-not-found
 
-# Chuck Norris facts on demand
-antigen bundle chucknorris
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Colorization for cat
-antigen bundle colorize
+# Load the theme.
+antigen theme robbyrussell
 
-# ctrl-z alias of fg
-antigen bundle fancy-ctrl-z
-
-# cargo autocompletion
-antigen bundle cargo
-
-# Coloration of man pages
-antigen bundle colored-man-pages
-
-# Easy extract
-antigen bundle extract
-
-# Random quote
-antigen bundle rand-quote
-
-# colors
-antigen bundle zsh-users/zsh-syntax-highlighting 
-
-# z -> jump directly to known directory
-antigen bundle z
-
-# theme
-antigen theme ys
-
+# Tell Antigen that you're done.
 antigen apply
