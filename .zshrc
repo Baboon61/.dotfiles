@@ -1,7 +1,5 @@
-source $(brew --prefix)/share/antigen.zsh
-
 autoload antigen
-
+ 
 # Source vers Antigen
  source ~/.dotfiles/antigen/antigen.zsh
  
