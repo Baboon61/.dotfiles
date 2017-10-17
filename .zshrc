@@ -1,4 +1,4 @@
-source /path-to-antigen/antigen.zsh
+source /home/bastien/.dotfilespath/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
