@@ -1,6 +1,6 @@
 autoload antigen
 
-DEFAULT_USER=bastien
+DEFAULT_USER=$USER
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
