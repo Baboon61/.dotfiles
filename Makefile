@@ -7,13 +7,6 @@ source:
 	cp ~/.dotfiles/.bash_profile ~/.bash_profile
 	cp ~/.dotfiles/.vimrc ~/.vimrc
 
-file_source:
-	source ~/.aliases
-	source ~/.zshrc
-	source ~/.bashrc
-	source ~/.bash_profile
-	source ~/.vimrc 
-
 pull:
 	git pull
 
