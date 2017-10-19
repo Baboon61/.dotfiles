@@ -1,4 +1,6 @@
 autoload antigen
+
+DEFAULT_USER=bastien
  
 # Source vers Antigen
  source ~/.dotfiles/antigen/antigen.zsh

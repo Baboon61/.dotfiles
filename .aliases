@@ -1,0 +1,12 @@
+#sublime-text
+alias sb='sublime-text'
+
+# Git alias
+alias ga='git add'
+alias gi='git init'
+alias gc='git commit -a -m'
+alias gst='git status'
+alias gm='git mv'
+alias grm='git rm'
+alias gp='git push'
+alias gu='git pull'
