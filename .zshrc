@@ -15,6 +15,6 @@ autoload antigen
  antigen bundle zsh-users/zsh-syntax-highlighting
  
 # theme
- antigen theme ys
+ antigen theme agnoster
  
 antigen apply
