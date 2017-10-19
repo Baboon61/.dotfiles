@@ -1,0 +1,8 @@
+Faire que nautilus se souvienne des tabs ouvertes
+https://askubuntu.com/questions/738509/how-can-i-make-nautilus-file-manager-remember-my-open-tabs
+
+Installer Numix
+https://itsfoss.com/install-numix-ubuntu/
+
+imp workstation
+https://bioinfo-fr.net/pimp-my-workstation-avoir-le-terminal-le-plus-classe-du-bureau
