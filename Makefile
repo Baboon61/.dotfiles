@@ -6,6 +6,7 @@ source:
 	cp ~/.dotfiles/git/.bashrc ~/.bashrc
 	cp ~/.dotfiles/git/.bash_profile ~/.bash_profile
 	cp ~/.dotfiles/git/.vimrc ~/.vimrc
+	cp ~/.dotfiles/git/.profile ~/.profile
 
 pull:
 	git pull
