@@ -5,6 +5,8 @@ DEFAULT_USER=$USER
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
+
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
  
 # Source vers Antigen
  source ~/.dotfiles/antigen/antigen.zsh
