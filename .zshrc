@@ -8,9 +8,6 @@ fi
 
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
-PROMPT='${ret_status}%{$fg_bold[cyan]%}[%D %T]%{$fg_bold[red]%} • %{$reset_color%}%{$fg_bold[blue]%}%d% %{$fg_bold[red]%} →  '
-preexec() { printf "\e[0m"; }
-
 # Source vers Antigen
  source ~/.dotfiles/antigen/antigen.zsh
  
@@ -30,3 +27,4 @@ preexec() { printf "\e[0m"; }
  
 antigen apply
 
+PROMPT='${ret_status}%{$fg_bold[cyan]%}[%D %T]%{$fg_bold[red]%} • %{$reset_color%}%{$fg_bold[blue]%}%d% %{$fg_bold[red]%} →  %{$reset_color%}'
