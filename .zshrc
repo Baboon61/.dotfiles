@@ -28,4 +28,4 @@ fi
 antigen apply
 
 PROMPT='${ret_status}%{$fg_bold[cyan]%}[%D %T]%{$fg_bold[red]%} • %{$reset_color%}%{$fg_bold[blue]%}%d% %{$fg_bold[red]%} →  '
-POSTEDIT=$'\e[0m'
+preexec() { printf "\e[0m"; }
