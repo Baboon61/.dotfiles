@@ -7,7 +7,7 @@ if [ -f ~/.aliases ]; then
 fi
 
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
-PS1=$'\e[0;30m[%D/\%\}/Y-%m-%d %H:%M:%S}] \e[0;31m%~ $ \e[0m'
+
 # Source vers Antigen
  source ~/.dotfiles/antigen/antigen.zsh
  
@@ -26,3 +26,5 @@ PS1=$'\e[0;30m[%D/\%\}/Y-%m-%d %H:%M:%S}] \e[0;31m%~ $ \e[0m'
  antigen theme agnoster
  
 antigen apply
+
+PROMPT='${ret_status}%{$fg_bold[cyan]%}[%D %T]%{$fg_bold[red]%} • %{$reset_color%}%{$fg_bold[blue]%}%d% %{$fg_bold[red]%} →  '
